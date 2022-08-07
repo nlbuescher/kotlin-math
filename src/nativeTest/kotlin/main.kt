@@ -1,8 +1,7 @@
-import platform.intrin.*
+import kotlin.test.*
 
+@Test
 fun main() {
-	loadIntrinsics()
-
 	println(Float4(1f) + Float4(2f))
 	println(Float4(1f) - Float4(2f))
 	println(Float4(1f) * Float4(2f))
